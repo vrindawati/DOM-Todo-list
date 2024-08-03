@@ -8,17 +8,17 @@ h1.innerText = 'Todolist';
 div.appendChild(h1);
 div.style.textAlign = 'center';
 h1.style.padding = '20px';
-h1.style.color = 'white';
+h1.style.color = 'black';
 
 let p = document.createElement('p');
 p.innerText = 'Each day I accomplish a task on my todolist';
 div.appendChild(p);
-p.style.color = 'white';
+p.style.color = 'black';
 
 let heading2 = document.createElement('h2');
 heading2.innerText = 'Read a book';
 div.appendChild(heading2);
-heading2.style.color = 'white';
+heading2.style.color = 'black';
 heading2.style.padding = '20px';
 heading2.style.textAlign = 'left';
 
