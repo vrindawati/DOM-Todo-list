@@ -1,9 +1,9 @@
 let b = document.body;
 let div = document.createElement('div');
 b.appendChild(div);
-div.classList.add('container');  // Corrected className.add to classList.add
+div.classList.add('container');  
 
-let h1 = document.createElement('h1');  // Added let keyword
+let h1 = document.createElement('h1');  
 h1.innerText = 'Todolist';
 div.appendChild(h1);
 div.style.textAlign = 'center';
